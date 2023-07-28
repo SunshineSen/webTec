@@ -1,0 +1,35 @@
+@font-face {
+    font-family: site_text;
+    src: url(fonts/phenomena-regular.ttf);
+    font-family: big;
+    src: url(fonts/appetite.ttf);
+}
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+h1 {
+    color: #5e2323;
+    font-family: big, sans-serif;
+}
+h2 {
+    color:#311d5e;
+    font-family: big, sans-serif;
+}
+p, ul, ol {
+    font-family: site_text, sans-serif;
+}
+a {
+    color: #066d25;
+    font-size: 1.2rem;
+    font-family: site_text, sans-serif;
+}
+a:hover{
+    color: #f50e85;
+}
+body {
+    background-color: #a7a7a6;
+}
+img{
+    width: 600px;
+}
